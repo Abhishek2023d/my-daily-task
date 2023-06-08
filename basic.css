@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Josefin+Sans&family=Kanit&family=Poppins:wght@500&family=Roboto+Mono&family=Space+Grotesk&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.task1,
+.task2,
+.task3,
+.task4,
+.task5 {
+    padding: 10px;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+button:hover{
+    color: white;
+    background-color: #0455ea;
+}
+input{
+    padding: 7px;
+}
